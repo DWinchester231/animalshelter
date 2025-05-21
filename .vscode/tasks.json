@@ -1,0 +1,13 @@
+{
+    // VS Code task to open index.html in the default browser
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open Website",
+            "type": "shell",
+            "command": "start index.html",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
